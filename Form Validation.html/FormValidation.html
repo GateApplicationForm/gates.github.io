@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fom Validation</title>
+    <style>
+        .input-div
+        {
+            width:50%;
+            background-color:aquamarine;
+            padding:20px;
+        }
+    </style>
+    <script  src="Form_Validation.js 1"></script>
+</head>
+<body>
+    <form action="something.py" method="post" onsubmit="return valdation()">
+        <div class="input-div">
+            <label for="username">username:</label>
+            <input type="text" required name="username">
+            <span></span>
+            </div>
+            <div class="input-div">
+            <label for="password">password:</label>
+            <input type="password" required name="password">
+            <span></span>
+        </div>
+        <div class="input-div">
+            <label for="mobile">mobile:</label>
+        <input type="text" name="mobile">
+    </div>
+            <div class="input-div">
+            <label>course</label>
+            <input type="checkbox" name="python">python
+            <input type="checkbox" name="java">java
+            <input type="checkbox" name="c Language">c Language
+            <input type="checkbox" name="data-structure">data-structure
+</div>
+        <div class="input-div">
+        <input type="submit" value="submit">
+</div>
+    </form>
+</body>
+</html>
