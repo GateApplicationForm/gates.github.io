@@ -1,0 +1,86 @@
+#anchor
+{
+    text-decoration: none;
+    word-spacing: 1px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#anchor:hover
+{
+    color: rgb(209, 54, 137);
+   
+}
+
+#div1:focus
+{
+    background-color: khaki;
+    color: maroon;
+}
+h1
+{
+    border-style:rgb(240, 17, 17);
+    border: rgb(69, 69, 208);
+    background-color: rgb(113, 113, 234);
+    
+    
+}
+body
+{
+background-color:rgb(234, 245, 247);
+
+}
+hr
+{
+    background-color: blue;
+}
+input1
+{
+   color: rgb(47, 47, 72); 
+   text-align: center;
+}
+
+#input2
+{
+    text-align:right ;
+}
+input3
+{
+    background-color:rgb(113, 113, 234);
+    color: black;
+     height: 100;
+    width: 100%;
+    font-weight: bold;
+    position:relative;
+    display: inline-block;
+    text-align: center;
+
+   
+
+}
+
+#d1
+{
+   
+
+}
+#d2
+{
+   
+  
+}
+#footer
+{
+    width: 100%;
+    min-height: 100px;
+    background-color:rgb(113,113,234);
+    
+}
+
+#a1
+{
+    text-align: center;
+}
+
+
